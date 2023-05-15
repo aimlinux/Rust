@@ -17,3 +17,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 • cargo check を使うとバイナリを生成せずにプロジェクトをビルドして、エラーがないか確認
 できる
 • Cargo は、ビルドの成果物をコードと同じディレクトリに保存するのではなく、target/debugディレクトリに格納する
+<br>
+〇 リリースに向けたビルド
+プロジェクトが最終的にリリースできるようになったら、cargo build --release を使い、最適化した状態でコンパイルできます。
+このコマンドは実行ファイルを、target/debug ではなく、target/release に作成します。
