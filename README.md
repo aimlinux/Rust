@@ -7,7 +7,7 @@ Rust install : https://www.rust-lang.org/ja/tools/install
 <br>
 Windows Subsystem for linux :<br>
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
+<br><br><br>
 
 # Cargoのプロジェクトを作成する流れ
 
